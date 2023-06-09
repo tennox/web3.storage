@@ -15,8 +15,10 @@
     # Search for packages: https://search.nixos.org/packages?channel=unstable&query=cowsay
     # (note: this searches on unstable channel, be aware your nixpkgs flake input might be on a release channel)
     gcc # needed for some npm packages
-    # yarn
-    # nodePackages.pnpm
+
+    # remove whichever you don't need
+    yarn
+    nodePackages.pnpm
   ];
 
   scripts = {
